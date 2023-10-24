@@ -1,0 +1,66 @@
+
+:root{
+    --mainColor:#F0336B;
+    --colorText: #000;
+    --colorButton:#fff;
+
+
+}
+
+/* body{
+    background-image: linear-gradient(333deg,#83233f , #dd0041);
+    color: white;
+
+} */
+.bg-body-tertiary{
+    background-color:rgb(255, 255, 255) !important;
+}
+.change-logo-style{
+    color:var(--mainColor);
+    
+}
+.navbar .nav-item{
+    transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.navbar .nav-item:hover{
+    border-bottom-style: solid;
+   border-bottom-width: 1px; 
+    border-bottom-color: var(--mainColor);
+}
+ .btn-primary{
+    background-color:var(--mainColor);
+    color: var(--colorButton);
+    border: none;
+    transition: all 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn-primary:hover{
+    background-color: var(--colorText);
+    color: var(--colorButton);
+}
+
+
+.moviesCard{
+    margin: 30px auto;
+}
+.titleSection{
+    text-align: center;
+}
+.typeMovies{
+    text-align: right;
+    margin: 15px;
+}
+.moviesCard .card{
+    margin: 5px;
+}
+.moviesCard .card img{
+    height: 300px;
+
+}
+
+
+
+.Footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
